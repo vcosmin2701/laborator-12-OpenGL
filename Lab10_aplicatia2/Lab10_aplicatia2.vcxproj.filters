@@ -46,7 +46,11 @@
     <CopyFileToFolders Include="dlls\glu32.dll">
       <Filter>dlls</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="dlls\glut32.dll" />
-    <CopyFileToFolders Include="dlls\opengl32.dll" />
+    <CopyFileToFolders Include="dlls\glut32.dll">
+      <Filter>dlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="dlls\opengl32.dll">
+      <Filter>dlls</Filter>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>
