@@ -21,13 +21,13 @@ void CALLBACK display()
 	glClear(GL_COLOR_BUFFER_BIT);
 
 	// deseneaza doua dreptunghiuri care se suprapun ca un patrat stanga jos
-	glColor4f(1.0, 0.0, 0.0, 0.75); // dreptunghiul rosu
+	glColor4f(0.0, 1.0, 1.0, 0.75); // dreptunghiul rosu
 	glRectf(0.0, 0.0, 0.5, 1.0);
 	glFlush();
 
 	Sleep(2000);
 
-	glColor4f(0.0, 1.0, 0.0, 0.75); // dreptunghiul verde
+	glColor4f(1.0, 0.5, 0.0, 0.75); // dreptunghiul verde
 	glRectf(0.0, 0.0, 1.0, 0.5);
 	glFlush();
 

@@ -70,7 +70,7 @@ void CALLBACK display()
 
 	// se deseneaza cubul cu ascunderea si amestecarea activata dar cu buffer-ul z in modul read-only
 	glEnable(GL_BLEND);	
-	glBlendFunc(GL_SRC_ALPHA, GL_ONE);
+	glBlendFunc(GL_SRC_ALPHA,GL_SRC_ALPHA_SATURATE);
 
 	glDepthMask(GL_FALSE);  // buffer-ul z in modul read-only
 	GLfloat mat_cube_transp[] = { 1.0, 1.0, 0.0, 0.25 };
